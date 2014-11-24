@@ -9,9 +9,9 @@ Your challenge is to do a similar analysis on your own Github. What's the breakd
 
 To accomplish this you'll need to leverage Github's API. The docs are great. Here are some features that might be helpful:
 
-http://developer.github.com/v3/repos/statistics/
-http://developer.github.com/v3/repos/commits/
-http://developer.github.com/v3/repos/#list-languages
+* http://developer.github.com/v3/repos/statistics/
+* http://developer.github.com/v3/repos/commits/
+* http://developer.github.com/v3/repos/#list-languages
 
 To fetch data from the API you have a couple of options. Using a HTTP library like Net::HTTP (comes with Ruby) or HTTParty (https://github.com/jnunemaker/httparty). Octokit.rb is a gem specifically designed around interacting with the Github API (https://github.com/octokit/octokit.rb).
 
